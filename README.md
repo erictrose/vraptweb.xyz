@@ -1,16 +1,13 @@
 # vraptweb
 ![project logo](https://raw.githubusercontent.com/erictrose/vraptweb.xyz/master/v10-dark-small.png) <br>
-virtual reality apartment complex for JanusVR <br>
+virtual reality apartment complex for [JanusVR](http://www.janusvr.com/) <br>
 also check out [vrapt](https://github.com/erictrose/vrapt.xyz) <br>
-http://www.vraptweb.xyz
+~~http://www.vraptweb.xyz~~
+now http://www.vrcity.network
+
 ![project image](http://i.imgur.com/CfRUX1Q.png)
 ## Project Summary
-An automatically generating vr apartment complex. It allows vr, non-vr 3d, and browser users to interact with each other and the virtual world in realtime. The project starts with a single floor, and adds additional floors and content as new accounts are created. <br>
-This is the website
-
-## Documentation
-[Structure v1.0](https://github.com/erictrose/vraptweb.xyz/blob/master/structure_v1.0.pdf) <br>
-[Requirements v1.1](https://github.com/erictrose/vraptweb.xyz/blob/master/requirements_v1.1.pdf) <br>
+An automatically generating vr apartment complex. It starts with a single floor, and adds floors as new accounts are created. <br>
 
 ## Videos
 vrapt pitch - basics <br>
