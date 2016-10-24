@@ -1,9 +1,9 @@
 # vraptweb
 ![project logo](https://raw.githubusercontent.com/erictrose/vraptweb.xyz/master/v10-dark-small.png) <br>
 virtual reality apartment complex for [JanusVR](http://www.janusvr.com/) <br>
-also check out [vrapt](https://github.com/erictrose/vrapt.xyz) <br>
-~~http://www.vraptweb.xyz~~
-now http://www.vrcity.network
+browse to [vraptweb.xyz](http://vraptweb.xyz/)<br>
+portal to [vrapt.xyz](http://vrapt.xyz/) <br>
+also check out [vrcity.network](https://github.com/erictrose/vrcity)
 
 ![project image](http://i.imgur.com/CfRUX1Q.png)
 ## Project Summary
