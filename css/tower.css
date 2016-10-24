@@ -1,0 +1,122 @@
+.floorWrapper {
+    -webkit-perspective: 20000px;
+    -webkit-perspective-origin: 400% 3500px;
+    -moz-perspective: 20000px;
+    -moz-perspective-origin: 400% 3500px;
+    perspective: 20000px;
+    perspective-origin: 400% 3500px;
+    margin-top: 58px;
+    margin-bottom: 400px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logoContainer {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cube {
+  position: relative;
+  margin: 0px auto;
+  height: 121px;
+  width: 400px;
+  -webkit-transition: -webkit-transform 0.4s linear;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: -moz-transform 0.4s linear;
+  -moz-transform-style: preserve-3d;
+  transition: transform 0.4s linear;
+  transform-style: preserve-3d;
+}
+
+
+
+.cap {
+  position: absolute;
+  height: 360px;
+  width: 360px;
+  padding: 20px;
+/*  background-color: rgba(50, 50, 50, 0.4);*/
+background-color: #C9C9C9;
+  font-size: 27px;
+  line-height: 1em;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+.side {
+  position: absolute;
+  height: 80px;
+  width: 360px;
+  padding: 20px;
+/*  background-color: rgba(50, 50, 50, 0.7);*/
+    background-color: #C9C9C9;
+  font-size: 27px;
+  line-height: 1em;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+.side.four {
+    height: 121px;
+}
+
+/*
+.side.two {
+    height: 121px;
+}
+*/
+
+.cube .one  {
+  -webkit-transform: rotateX(90deg) translateZ(200px);
+  -moz-transform: rotateX(90deg) translateZ(200px);
+  transform: rotateX(90deg) translateZ(200px);
+}
+
+.cube .two {
+  -webkit-transform: translateZ(200px);
+  -moz-transform: translateZ(200px);
+  transform: translateZ(200px);
+}
+
+.cube .three {
+  -webkit-transform: rotateY(90deg) translateZ(200px);
+  -moz-transform: rotateY(90deg) translateZ(200px);
+  transform: rotateY(90deg) translateZ(200px);
+}
+
+.cube .four {
+  -webkit-transform: rotateY(180deg) translateZ(200px);
+  -moz-transform: rotateY(180deg) translateZ(200px);
+  transform: rotateY(180deg) translateZ(200px);
+    padding: 0px;
+    width: 400px;
+}
+
+.cube .five {
+  -webkit-transform: rotateY(-90deg) translateZ(200px);
+  -moz-transform: rotateY(-90deg) translateZ(200px);
+  transform: rotateY(-90deg) translateZ(200px);
+}
+
+.cube .six {
+  -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(-80px);
+  -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(-80px);
+  transform: rotateX(-90deg) rotate(180deg) translateZ(-80px);
+}
+
+#interface-messages {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+#interface-messages .flash_message {
+    padding: 5px;
+    color: gray;
+}

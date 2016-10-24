@@ -1,0 +1,42 @@
+.other-cube-back {
+    position: relative;
+    height: 103px;
+    width: 400px;
+    background-color: #C9C9C9;
+    font-family: sans-serif;
+    color: #4D4D4D;
+}
+
+.other-send-container {
+    margin: 17px 0 0 16px;    
+}
+
+.other-status-label {
+    font-size: 15px;
+    float: left;
+    padding-right: 10px;
+}
+
+.other-status-input {
+    font-size: 15px;
+    float: left;
+    margin-right: 7px;
+}
+
+.other-status-send {
+    float: left;
+    width: 50px;
+    height: 23px;
+    border-radius: 3px;
+    border: 1px solid #676767;
+    color: #4A4A4A;
+    background-color: #A0A0A0;
+    font-size: 15px;
+}
+
+.other-send-message {
+    font-size: 15px;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,64 @@
+<!--modals-->
+<div class="message-modal" ng-show="messageModalOn">
+    <div class="message-modal-panel">
+        <button class="modal-close" ng-click="closeModal()">X</button>
+        <h1>Messages</h1>
+        <div class="modal-message-cont" ng-repeat="message in myMessages">
+            <div class="modal-message-header-cont">
+                <h2>From: {{message.sender.firstname}} {{message.sender.lastname}} @ bld#{{message.sender.bld}} apt#{{message.sender.apt}}</h2>
+                <button class="modal-delete" ng-click="myMessages.$remove(message)">DELETE</button>
+            </div>
+            <p>{{message.body}}</p>
+        </div>
+    </div>
+</div>
+<div class="changewalls-modal" ng-show="changeWallsModalOn">
+    <div class="message-modal-panel">
+        <button class="modal-close" ng-click="closeChangeWallsModal()">X</button>
+        <h1>Change Walls</h1>
+        <p class="change-portal-msg">must start with http://www</p>
+        <div class="change-portal-cont">
+            <span class="change-portal-label">wall 1: </span>
+            <input class="change-portal-input" type="url" ng-model="myWall1" />
+            <button class="change-portal-set" ng-click="setMyWall1()">SAVE</button>
+        </div>
+        <div class="change-portal-cont">
+            <span class="change-portal-label">wall 2: </span>
+            <input class="change-portal-input" type="url" ng-model="myWall2" />
+            <button class="change-portal-set" ng-click="setMyWall2()">SAVE</button>
+        </div>
+        <div class="change-portal-cont">
+            <span class="change-portal-label">wall 3: </span>
+            <input class="change-portal-input" type="url" ng-model="myWall3" />
+            <button class="change-portal-set" ng-click="setMyWall3()">SAVE</button>
+        </div>
+    </div>
+</div>
+<div class="changeportals-modal" ng-show="changePortalsModalOn">
+    <div class="message-modal-panel">
+        <button class="modal-close" ng-click="closeChangePortalsModal()">X</button>
+        <h1>Change Portals</h1>
+        <p class="change-portal-msg">must start with http://www</p>
+        <div class="change-portal-cont">
+            <span class="change-portal-label">portal 1: </span>
+            <input class="change-portal-input" type="url" ng-model="myPortal1" />
+            <button class="change-portal-set" ng-click="setMyPortal1()">SAVE</button>
+        </div>
+        <div class="change-portal-cont">
+            <span class="change-portal-label">portal 2: </span>
+            <input class="change-portal-input" type="url" ng-model="myPortal2" />
+            <button class="change-portal-set" ng-click="setMyPortal2()">SAVE</button>
+        </div>
+    </div>
+</div>
+
+<!--sys msg-->
+<!--<p class="system-msg">sysmsg: {{msg}}</p>-->
+
+<!--click here arrow-->
+<div class="click-here-cont">
+    <img src="http://i.imgur.com/Lg63kAo.png" class="click-here-image">
+</div>
+
+<!--floor container-->
+<div class="floorWrapper" id="floorContainer"></div>

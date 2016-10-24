@@ -1,0 +1,32 @@
+<section class="loggedout">
+  <h1>VRAPT</h1>
+  <h2>join</h2>
+  <a ng-href="#/login" class="login-join-anchor">
+    <div class="login-button">
+      <p class="login-join-text">login</p>
+    </div>
+  </a>
+  <a ng-href="#/register" class="login-join-anchor">
+    <div class="join-button">
+      <p class="login-join-text">join</p>
+    </div>
+  </a>
+  <div class="loggedout-form-container">
+    <form class="loggedout-form" name="myform" ng-submit="register()" novalidate>
+      <fieldset>
+        <div class="loggedout-form-inputs">
+          <input type="text" name="firstname" placeholder="first name" ng-model="user.fname" ng-required="true">
+          <p class="loggedout-error loggedout-error-1" ng-show="myform.firstname.$invalid && myform.firstname.$touched">invalid</p>
+          <input type="text" name="lastname" placeholder="last name" ng-model="user.lname" ng-required="true">
+          <p class="loggedout-error loggedout-error-2" ng-show="myform.lastname.$invalid && myform.lastname.$touched">invalid</p>
+          <input type="email" name="email" placeholder="email" ng-model="user.email" ng-required="true">
+          <p class="loggedout-error loggedout-error-3" ng-show="myform.email.$invalid && myform.email.$touched">invalid</p>
+          <input type="password" name="password" placeholder="password" ng-model="user.password" ng-required="true">
+          <p class="loggedout-error loggedout-error-4" ng-show="myform.password.$invalid && myform.password.$touched">invalid</p>
+        </div>
+      </fieldset>
+      <p class="loggedout-message">{{ message }}</p>
+      <button type="submit" class="loggedout-submit" ng-disabled="myform.$invalid" ng-class="{'loggedout-submit-inactive' : myform.$invalid, 'loggedout-submit-active' : myform.$valid}">JOIN</button>
+    </form>
+  </div>
+  

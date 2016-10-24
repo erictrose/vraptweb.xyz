@@ -1,0 +1,28 @@
+<section class="loggedout">
+  <h1>VRAPT</h1>
+  <h2>login</h2>
+  <a ng-href="#/login" class="login-join-anchor">
+    <div class="login-button">
+      <p class="login-join-text">login</p>
+    </div>
+  </a>
+  <a ng-href="#/register" class="login-join-anchor">
+    <div class="join-button">
+      <p class="login-join-text">join</p>
+    </div>
+  </a>
+  <div class="loggedout-form-container">
+    <form class="loggedout-form" name="myform" ng-submit="login()" novalidate>
+      <fieldset>
+        <div class="loggedout-form-inputs">
+          <input type="email" ng-init="user.email='test2@test.com'" name="email" placeholder="email" ng-model="user.email" ng-required="true">
+          <span class="loggedout-error loggedout-error-1" ng-show="myform.email.$invalid && myform.email.$touched">invalid</span>
+          <input type="password" ng-init="user.password='12345'" name="password" placeholder="password" ng-model="user.password" ng-required="true">
+          <span class="loggedout-error loggedout-error-2" ng-show="myform.password.$invalid && myform.password.$touched">invalid</span>
+        </div>
+      </fieldset>
+      <p class="loggedout-message">{{ message }}</p>
+      <button type="submit" class="loggedout-submit" ng-disabled="myform.$invalid" ng-class="{'loggedout-submit-inactive' : myform.$invalid, 'loggedout-submit-active' : myform.$valid}">ENTER</button>
+    </form>
+    <p class="loggedout-version">v{{ version }}</p>
+  </div>

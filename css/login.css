@@ -1,0 +1,152 @@
+.loggedout {
+  width: 356px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #C9C9C9;
+  border: 1px solid #676767;
+  text-align: center;
+  margin-top: 260px;
+  font-family: sans-serif;
+  font-weight: 300;
+  position: relative;
+}
+
+.loggedout h1 {
+  font-size: 32px;
+  color: #676767;
+  padding-top: 38px;
+}
+
+.loggedout h2 {
+  font-size: 18px;
+  color: #676767;
+  padding-top: 4px;
+}
+
+.loggedout-message {
+    color: #676767;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.login-button {
+  width: 81px;
+  height: 45px;
+  background-color: #C9C9C9;
+  border-radius: 5px;
+  border: 1px solid #676767;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.join-button {
+  width: 81px;
+  height: 45px;
+  background-color: #C9C9C9;
+  border-radius: 5px;
+  border: 1px solid #676767;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.login-join-anchor {
+  color: inherit;
+  text-decoration: none;
+  /* no underline */
+}
+
+.login-join-text {
+  padding-top: 16px;
+}
+
+.loggedout-form-container {
+  margin: 0 auto;
+}
+
+.loggedout-form {
+  /*   background-color: red; */
+  padding-top: 26px;
+  /*   width: 185px; */
+}
+
+.loggedout-form-inputs {
+  /*   background-color: green; */
+  width: 185px;
+  margin: 0 auto;
+}
+
+.loggedout-form-inputs input {
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: 1px solid #95989A;
+}
+
+.loggedout-error {
+    font-size: 12px;
+    position: absolute;
+}
+
+.loggedout-error-1 {
+    right: 25px;
+    top: 124px;
+}
+
+.loggedout-error-2 {
+    right: 25px;
+    top: 159px;
+}
+
+.loggedout-error-3 {
+    right: 25px;
+    top: 194px;
+}
+
+.loggedout-error-4 {
+    right: 25px;
+    top: 229px;
+}
+
+.loggedout-submit {
+  width: 117px;
+  height: 45px;
+  margin-top: 18px;
+  margin-bottom: 27px;
+  /*     background: none; */
+  border-radius: 5px;
+  font: inherit;
+  font-size: 20px;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button;
+  /* for input */
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.loggedout-submit-active {
+  border: 1px solid #676767;
+  color: #4A4A4A;
+  background-color: #A0A0A0;
+}
+
+.loggedout-submit-inactive {
+  border: 1px solid #A7A7A7;
+  color: #A7A7A7;
+  background-color: #C9C9C9;
+}
+
+.loggedout-version {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    color: #676767;
+    font-size: 14px;
+}
